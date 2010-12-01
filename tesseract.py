@@ -68,7 +68,6 @@ def run_tesseract(input_filename, output_filename_base, lang=None, nobatch=False
         command += [configfile]
     if lang is not None:
         command += ['-l', lang]
-    print command
 
     proc = subprocess.Popen(command,
             stderr=subprocess.PIPE)
