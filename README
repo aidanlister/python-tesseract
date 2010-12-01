@@ -23,6 +23,8 @@ In python:
 
 
 INSTALLATION:
+* You can install these bindings with pip:
+  pip install -e git+git://github.com/aidanlister/python-tesseract.git#egg=python-tesseract
 * Python-tesseract requires python 2.5 or later.
 * You will need the Python Imaging Library (PIL).  Under Debian/Ubuntu, this is
   the package "python-imaging".
